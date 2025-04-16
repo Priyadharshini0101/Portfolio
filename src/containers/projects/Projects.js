@@ -18,13 +18,13 @@ export default function Projects() {
     const getRepoData = () => {
       fetch("/profile.json")
         .then(result => {
-          if (result.ok) {
-            return result.json();
+          if (result?.ok) {
+            return result?.json();
           }
           throw result;
         })
         .then(response => {
-          setrepoFunction(response.data.user.pinnedItems.edges);
+          setrepoFunction(response?.data?.user?.pinnedItems?.edges);
         })
         .catch(function (error) {
           console.error(
@@ -41,28 +41,29 @@ export default function Projects() {
   }
   if (
     !(typeof repo === "string" || repo instanceof String) &&
-    openSource.display
+    openSource?.display
   ) {
     return (
       <Suspense fallback={renderLoader()}>
         <div className="main" id="opensource">
           <h1 className="project-title">Open Source Projects</h1>
           <div className="repo-cards-div-main">
-            {repo.map((v, i) => {
+            {repo?.map((v, i) => {
               if (!v) {
                 console.error(
                   `Github Object for repository number : ${i} is undefined`
                 );
+                return null;
               }
               return (
-                <GithubRepoCard repo={v} key={v.node.id} isDark={isDark} />
+                <GithubRepoCard repo={v} key={v?.node?.id} isDark={isDark} />
               );
             })}
           </div>
           <Button
             text={"More Projects"}
             className="project-button"
-            href={socialMediaLinks.github}
+            href={socialMediaLinks?.github}
             newTab={true}
           />
         </div>

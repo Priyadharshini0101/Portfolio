@@ -4,6 +4,14 @@
   text-align: center;
   color: $subTitle !important;
 }
+.link-click{
+  color:$subTitle;
+}
+.link-click:hover{
+  
+  // transition: all 0.3s ease-out;
+  color:$textColor;
+}
 
 .dark-mode {
   color: $textColorDark !important;
@@ -12,4 +20,7 @@
 .footer-div {
   margin-top: 2rem;
   padding-bottom: 1rem;
+}
+.dark-mode .link-click:hover{
+  color: $subTitle !important;
 }

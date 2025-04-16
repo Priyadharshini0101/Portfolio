@@ -19,6 +19,11 @@
   margin: 0;
   font-size: 40px;
   font-weight: 400;
+  color:$textColor;
+}
+
+.dark-mode .prof-title{
+  color:$textColorDark;
 }
 
 .location-div {
@@ -35,6 +40,11 @@
 
 .main-content-profile {
   flex: 80%;
+  color:$textColor;
+}
+
+.dark-mode .main-content-profile{
+  color:$textColorDark;
 }
 
 .image-content-profile {

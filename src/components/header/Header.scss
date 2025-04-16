@@ -35,7 +35,10 @@
 }
 
 .grey-color {
-  color: $subTitle;
+  color: $textColor;
+}
+.dark-menu .grey-color{
+  color: $textColorDark !important;
 }
 
 .header li a {

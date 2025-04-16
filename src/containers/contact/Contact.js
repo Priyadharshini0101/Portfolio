@@ -19,7 +19,7 @@ export default function Contact() {
               className={
                 isDark
                   ? "dark-mode contact-subtitle"
-                  : "subTitle contact-subtitle"
+                  : "contact-subtitle"
               }
             >
               {contactInfo.subtitle}

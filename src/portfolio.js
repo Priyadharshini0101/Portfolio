@@ -120,7 +120,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Government College of Engineering, Salem",
-      logo: require("./assets/stack/GCESALEM.jpg"),
+      logo: require("./assets/stack/gceSalem.jpg"),
       subHeader: "B.E - Computer Science and Engineering",
       duration: "July 2019 - May 2023",
       grade: 'Average CGPA - 9',
@@ -201,7 +201,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/stack/U-Farm.jpg"),
+      image: require("./assets/stack/UFarm.jpg"),
       projectName: "U-Farm App",
       projectDesc: " A mobile-friendly agricultural support app where farmers upload disease affected crop photos and receive expert solutions via text and audio in native languages. Solved real-world problems by providing timely and accurate solutions to farmers, improving crop yield and productivity.",
       footerLink: [

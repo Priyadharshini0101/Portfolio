@@ -157,31 +157,31 @@ const workExperiences = {
     {
       role: "Internship - Android App Development",
       company: "Exposys Data Labs",
-      companylogo: require("./assets/stack/ExposysDataLabsLogo.jpg"),
+      companylogo: require("./assets/stack/exposysDataLabs.jpg"),
       date: "Oct 2021 - Nov 2021",
       desc: "Developed an Android chat application that connects people with similar interests. Implemented a filtering feature to display users with shared interests on the home page.",
     },
     {
       role: "Project Trainee - Web Client",
       company: "Zoho",
-      companylogo: require("./assets/stack/zoho1.jpg"),
+      companylogo: require("./assets/stack/zoho.jpg"),
       date: "Nov 2022 - Mar 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Learned frontend development, collaborated on frontend development tasks and developed an Expense Tracker to track user balances."
     },
     {
       role: "Internship - Frontend Development",
       company: "Nila Apps",
       companylogo: require("./assets/stack/nilaApps.jpg"),
       date: "Jul 2023 - Oct 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Developed a Room Booking System with authentication for customers and owners. Enabled owners to manage bookings and customers to track room availability easily."
     },
     
     {
       role: "Frontend Developer Consultant - Frontend Development",
       company: "Solytics Partners",
-      companylogo: require("./assets/stack/solyticspartnerws.jpg"),
-      date: "Jul 2023 - Oct 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      companylogo: require("./assets/stack/solyticsPartners.jpg"),
+      date: "Aug 2024 - Feb 2024",
+      desc: "Worked on bug fixes, tasks, and logger issues, resolving 80+ tickets related to UI enhancements and feature updates. Debugged and fixed critical issues in the Nimbus-Frontend website, improving user experience and performance."
     }
   ]
 };
@@ -197,29 +197,43 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/stack/U-Farm.jpg"),
+      projectName: "U-Farm App",
+      projectDesc: " A mobile-friendly agricultural support app where farmers upload disease affected crop photos and receive expert solutions via text and audio in native languages. Solved real-world problems by providing timely and accurate solutions to farmers, improving crop yield and productivity.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "",
+          githubUrl:"https://github.com/Priyadharshini0101/U-Farm"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/stack/Stop-N-Shop.png"),
+      projectName: "Stop ‘N Shop",
+      projectDesc: "An e-commerce platform for clothing stores that allows users to browse products, add items to a cart, and proceed to checkout for delivery. Includes user authentication, preference saving, and order tracking features for a personalized shopping experience",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://stop-n-shop-hf36xm3gb-priyadharshinis-projects-a027af97.vercel.app/",
+          githubUrl:'https://github.com/Priyadharshini0101/Stop-N-Shop'
+        }
+      ]
+    },
+    {
+      image: require("./assets/stack/Netflix-Clone.png"),
+      projectName: "Netflix-Clone",
+      projectDesc: " A Netflix-inspired streaming platform built using React.js and the TMDB API. Features include user authentication, personalized watchlists, and content filtering by language and genre",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://netflix-clone-one-coral-26.vercel.app/",
+          githubUrl:"https://github.com/Priyadharshini0101/Netflix-Clone",
         }
       ]
     }

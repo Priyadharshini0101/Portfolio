@@ -1,9 +1,9 @@
 @import "../../_globalColor";
 
 .card-image {
-  max-width: 100%;
-  height: auto;
-  width: 250px;
+  // max-width: 100%;
+  height: 200px  !important;
+  width: 400px !important;
 }
 .card-title {
   color: $titleColor;
@@ -64,6 +64,12 @@
   gap: 1rem 1rem;
 }
 
+.project-card-footer{
+  display: flex;
+  justify-content:end;
+  gap:10px;
+
+}
 .project-card-footer span.project-tag {
   background: $buttonColor;
   color: $lightBackground3;
@@ -72,7 +78,7 @@
   border-radius: 4px;
   display: inline-flex;
   font-size: 0.75rem;
-  height: 2em;
+  height: 3em;
   justify-content: center;
   white-space: nowrap;
   line-height: 1.5;

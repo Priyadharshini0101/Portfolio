@@ -50,7 +50,7 @@ export default function GithubProfileCard({prof}) {
             </div>
             <SocialMedia />
           </div>
-          <div className={isDark ? "dark-modeimage-content-profile" : "image-content-profile" }>
+          <div className={isDark ? "dark-mode image-content-profile" : "image-content-profile" }>
             <img
               src={prof.avatarUrl}
               alt={prof.name}

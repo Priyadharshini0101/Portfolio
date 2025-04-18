@@ -10,7 +10,7 @@ import bootstrapLogo from '../../assets/stack/Bootstrap.svg';
 import lessLogo from '../../assets/stack/Less.svg';
 import sassLogo from '../../assets/stack/Sass.svg';
 import androidLogo from '../../assets/stack/Android.svg';
-import vsCodeLogo from '../../assets/stack/VS Code.svg';
+import kotlinLogo from '../../assets/stack/Kotlin.svg';
 import mysqlLogo from '../../assets/stack/My SQL.svg';
 import reactLogo from '../../assets/stack/React JS.svg';
 import tailwindCssLogo from '../../assets/stack/Tailwind CSS.svg';
@@ -45,6 +45,16 @@ https://fontawesome.com/icons?d=gallery */
       imgSrc:javaLogo,
     },
     {
+      skillName: "Android",
+      imgSrc:androidLogo,
+    },
+    {
+      skillName:"Kotlin",
+      imgSrc:kotlinLogo,
+    }
+
+   ,
+    {
       skillName: "HTML5",
       imgSrc: htmlLogo,
     },
@@ -60,6 +70,16 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Bootstrap",
       imgSrc:bootstrapLogo,
+    },
+     
+    {
+      skillName: "Less",
+      imgSrc: lessLogo,
+    },
+    
+    {
+      skillName: "Sass",
+      imgSrc:sassLogo,
     },
     {
       skillName: "React JS",
@@ -81,38 +101,27 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Material UI",
       imgSrc: materialUILogo,
     },
-    
-    {
-      skillName: "Github",
-      imgSrc:githubLogo,
-    },
-    {
-      skillName: "Git",
-      imgSrc:gitLogo,
-    },
-    {
-      skillName: "Firebase",
-      imgSrc:firebaseLogo,
-    },
+   
+     
     {
       skillName: "My SQL",
       imgSrc:mysqlLogo,
     },
     {
-      skillName: "Less",
-      imgSrc: lessLogo,
+      skillName: "Firebase",
+      imgSrc:firebaseLogo,
     },
-    
-    {
-      skillName: "Sass",
-      imgSrc:sassLogo,
-    },
-    {
-      skillName: "Android",
-      imgSrc:androidLogo,
-    },
-
    
+   
+  
+    {
+      skillName: "Git",
+      imgSrc:gitLogo,
+    },
+    {
+      skillName: "Github",
+      imgSrc:githubLogo,
+    },
    
   ],
   display: true // Set false to hide this section, defaults to true

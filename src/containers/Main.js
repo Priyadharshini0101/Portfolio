@@ -55,6 +55,7 @@ const Main = () => {
             <Skills />
             <Education />
             <WorkExperience />
+            <StartupProject/>
             <Projects />
             <Profile />
             <Footer />

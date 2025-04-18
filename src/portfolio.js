@@ -33,9 +33,9 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
+  github: "https://github.com/Priyadharshini0101",
+  linkedin: "https://www.linkedin.com/in/priyadharshini-s-0323a7212/",
+  gmail: "priyadharshinis5102@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -62,8 +62,16 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "C",
+      imgSrc:'../../assets/stack/C.svg'
+    },
+    {
+      skillName: "C++",
+      imgSrc:'../../assets/stack/C.svg'
+    },
+    {
+      skillName: "HTML5",
+      imgSrc: '../../assets/stack/C.svg'
     },
     {
       skillName:"java",
@@ -111,24 +119,12 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Government College of Engineering, Salem",
+      logo: require("./assets/stack/GOVERNMENT-COLLEGE-OF-ENGINEERING-SALEM.jpg"),
+      subHeader: "B.E - Computer Science and Engineering",
+      duration: "July 2019 - May 2023",
+      grade: 'Average CGPA - 9',
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
   ]
 };
 
@@ -159,28 +155,32 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Internship - Android App Development",
+      company: "Exposys Data Labs",
+      companylogo: require("./assets/stack/download.jpg"),
+      date: "Oct 2021 - Nov 2021",
+      desc: "Developed an Android chat application that connects people with similar interests. Implemented a filtering feature to display users with shared interests on the home page.",
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Project Trainee - Web Client",
+      company: "Zoho",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      date: "Nov 2022 - Mar 2023",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
+      role: "Internship - Frontend Development",
+      company: "Nila Apps",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      date: "Jul 2023 - Oct 2023",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    
+    {
+      role: "Frontend Developer Consultant - Frontend Development",
+      company: "Solytics Partners",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      date: "Jul 2023 - Oct 2023",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]

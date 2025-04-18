@@ -5,6 +5,11 @@
   max-height: 100px;
 }
 
+input:checked  + .slider {
+  background-color: $subTitle !important;
+}
+
+
 /* header */
 
 .dark-menu {

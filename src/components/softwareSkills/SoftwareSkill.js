@@ -1,7 +1,25 @@
 import React from "react";
 import "./SoftwareSkill.scss";
 import cLogo from '../../assets/stack/C.svg';
-
+import cppLogo from '../../assets/stack/Cpp.svg';
+import htmlLogo from '../../assets/stack/HTML.svg';
+import javaLogo from '../../assets/stack/Java.svg';
+import cssLogo from '../../assets/stack/CSS.svg';
+import jsLogo from '../../assets/stack/Javascript.svg';
+import bootstrapLogo from '../../assets/stack/Bootstrap.svg';
+import lessLogo from '../../assets/stack/Less.svg';
+import sassLogo from '../../assets/stack/Sass.svg';
+import androidLogo from '../../assets/stack/Android.svg';
+import vsCodeLogo from '../../assets/stack/VS Code.svg';
+import mysqlLogo from '../../assets/stack/My SQL.svg';
+import reactLogo from '../../assets/stack/React JS.svg';
+import tailwindCssLogo from '../../assets/stack/Tailwind CSS.svg';
+import reduxLogo from '../../assets/stack/Redux.svg';
+import typescriptLogo from '../../assets/stack/Typescript.svg'
+import materialUILogo from '../../assets/stack/Material UI.svg'
+import firebaseLogo from '../../assets/stack/Firebase.svg'
+import githubLogo from '../../assets/stack/Github.svg';
+import gitLogo from '../../assets/stack/Git.svg'
 
 const skillsSection = {
   title: "Tech Stack",
@@ -20,48 +38,82 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "C++",
-      imgSrc:cLogo,
+      imgSrc:cppLogo,
+    },
+    {
+      skillName: "Java",
+      imgSrc:javaLogo,
     },
     {
       skillName: "HTML5",
-      imgSrc: cLogo,
+      imgSrc: htmlLogo,
     },
     {
-      skillName:"java",
-      fontAwesomeClassname: "fab fa-java",
+      skillName: "CSS3",
+      imgSrc:cssLogo,
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Javascript",
+      imgSrc: jsLogo,
+    },
+    
+    {
+      skillName: "Bootstrap",
+      imgSrc:bootstrapLogo,
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "React JS",
+      imgSrc:reactLogo,
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "Tailwind CSS",
+      imgSrc:tailwindCssLogo,
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Redux",
+      imgSrc: reduxLogo,
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Typescript",
+      imgSrc:typescriptLogo,
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Material UI",
+      imgSrc: materialUILogo,
+    },
+    
+    {
+      skillName: "Github",
+      imgSrc:githubLogo,
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "Git",
+      imgSrc:gitLogo,
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Firebase",
+      imgSrc:firebaseLogo,
     },
+    {
+      skillName: "My SQL",
+      imgSrc:mysqlLogo,
+    },
+    {
+      skillName: "Less",
+      imgSrc: lessLogo,
+    },
+    
+    {
+      skillName: "Sass",
+      imgSrc:sassLogo,
+    },
+    {
+      skillName: "Android",
+      imgSrc:androidLogo,
+    },
+
+   
+   
   ],
   display: true // Set false to hide this section, defaults to true
 };

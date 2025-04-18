@@ -120,7 +120,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Government College of Engineering, Salem",
-      logo: require("./assets/stack/GOVERNMENT-COLLEGE-OF-ENGINEERING-SALEM.jpg"),
+      logo: require("./assets/stack/GCE-SALEM.jpg"),
       subHeader: "B.E - Computer Science and Engineering",
       duration: "July 2019 - May 2023",
       grade: 'Average CGPA - 9',
@@ -157,21 +157,21 @@ const workExperiences = {
     {
       role: "Internship - Android App Development",
       company: "Exposys Data Labs",
-      companylogo: require("./assets/stack/download.jpg"),
+      companylogo: require("./assets/stack/ExposysDataLabsLogo.jpg"),
       date: "Oct 2021 - Nov 2021",
       desc: "Developed an Android chat application that connects people with similar interests. Implemented a filtering feature to display users with shared interests on the home page.",
     },
     {
       role: "Project Trainee - Web Client",
       company: "Zoho",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/stack/zoho1.jpg"),
       date: "Nov 2022 - Mar 2023",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       role: "Internship - Frontend Development",
       company: "Nila Apps",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/stack/nilaApps.jpg"),
       date: "Jul 2023 - Oct 2023",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
@@ -179,7 +179,7 @@ const workExperiences = {
     {
       role: "Frontend Developer Consultant - Frontend Development",
       company: "Solytics Partners",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/stack/solyticspartnerws.jpg"),
       date: "Jul 2023 - Oct 2023",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }

@@ -6,13 +6,23 @@
   font-size: 3rem;
   margin-bottom: 0px;
   margin-top: 0px;
-  text-align: center;
+  text-align: center;  
+  width: 55%;
+}
+.software-skills-main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
 }
 
 .software-skill-inline {
-  display: inline-block;
+  display:inline-block;
   margin-right: 20px;
   margin-bottom: 20px;
+
+ 
 }
 .stack{
   height:50px;

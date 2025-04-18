@@ -120,7 +120,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Government College of Engineering, Salem",
-      logo: require("./assets/stack/GCE-SALEM.jpg"),
+      logo: require("./assets/stack/GCESALEM.jpg"),
       subHeader: "B.E - Computer Science and Engineering",
       duration: "July 2019 - May 2023",
       grade: 'Average CGPA - 9',

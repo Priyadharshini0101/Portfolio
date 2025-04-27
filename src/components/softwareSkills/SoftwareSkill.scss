@@ -56,3 +56,18 @@
   -ms-transform: rotate(360deg); 
   transform: rotate(360deg);
 }
+
+@media (max-width: 1024px) {
+  
+  .dev-icons {
+   width:80%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  
+  .dev-icons {
+   width:100%;
+  }
+}

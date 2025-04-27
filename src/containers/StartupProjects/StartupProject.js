@@ -21,7 +21,7 @@ export default function StartupProject() {
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
         <div>
-          <h1 className="skills-heading">{bigProjects.title}</h1>
+          <h1 className={isDark ? "dark-mode skills-heading" : "skills-heading"}>{bigProjects.title}</h1>
 
           <div className="projects-container">
             {bigProjects.projects.map((project, i) => {
@@ -63,18 +63,14 @@ export default function StartupProject() {
                             <>
                            {link.url !== "" && (<span
                               key={i}
-                              className={
-                                isDark ? "dark-mode project-tag" : "project-tag"
-                              }
+                              className="main-button main-btn"
                               onClick={() => openUrlInNewTab(link.url)}
                             >
                               Visit Website
                             </span>)}
                              <span
                              key={i}
-                             className={
-                               isDark ? "dark-mode project-tag" : "project-tag"
-                             }
+                             className="main-button main-btn"
                              onClick={() => openUrlInNewTab(link.githubUrl)}
                            >
                              GitHub

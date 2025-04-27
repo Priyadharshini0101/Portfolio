@@ -11,7 +11,7 @@ export default function SplashScreen() {
       <div className="splash-animation-container">
         <DisplayLottie animationData={splashScreen.animation} />
       </div>
-      <div className="splash-title-container">
+      <div className={isDark ? "dark-mode splash-title-container" : "splash-title-container"}>
         <span className=""> &lt;</span>
         <span className="splash-title">{greeting.username}</span>
         <span className="">/&gt;</span>

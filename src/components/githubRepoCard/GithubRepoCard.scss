@@ -3,7 +3,7 @@
 .repo-card-div {
   color: $githubRepoCardColor;
   background-color: $lightBackground2;
-  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
+  box-shadow: $lightBoxShadowDarker 0px 10px 30px -15px;
   padding: 2rem;
   cursor: pointer;
   -webkit-transition: all 0.3s ease;
@@ -50,7 +50,8 @@
 
 .repo-svg {
   margin-right: 0.5rem;
-  min-width: 16px;
+  min-width: 16px; 
+  fill:#4C5A64;
 }
 
 .repo-name {
@@ -64,6 +65,7 @@
   overflow: hidden;
   margin: 0px;
   height: 30px;
+  color:$textColor;
 }
 
 .repo-star-svg {

@@ -4,6 +4,11 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  color:#4C5A64;
+}
+
+.dark-mode {
+  color:#fff;
 }
 
 .splash-animation-container {

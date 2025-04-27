@@ -1,6 +1,7 @@
 .education-heading {
   font-size: 56px;
   font-weight: 400;
+  color:#4C5A64;
 }
 
 .education-section {
@@ -21,6 +22,11 @@
   display: flex;
   flex-direction: column;
   padding-top: 20px;
+  color:#4C5A64;
+}
+
+.dark-mode{
+  color: white;
 }
 
 @media (max-width: 1380px) {

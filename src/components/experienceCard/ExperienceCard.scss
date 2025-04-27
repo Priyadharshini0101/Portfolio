@@ -20,6 +20,10 @@
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
 }
 
+.experience-card-dark:hover {
+  box-shadow: $darkBoxShadow 0px 20px 30px -10px;
+}
+
 .experience-banner {
   background-position: center;
   background-repeat: no-repeat;

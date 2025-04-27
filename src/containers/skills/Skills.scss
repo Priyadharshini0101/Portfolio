@@ -13,6 +13,11 @@
   text-align: center;
 }
 
+.dark-mode .skills-text-div {
+  color: white;
+}
+
+
 .skills-main-div > * {
   flex: 1;
   margin-bottom: 30px;
@@ -27,6 +32,7 @@
   font-size: 56px;
   font-weight: 400;
   padding:16px;
+  color:$textColor;
 }
 .subTitle {
   color: $subTitle;

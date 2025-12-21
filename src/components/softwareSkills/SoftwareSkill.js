@@ -90,22 +90,12 @@ https://fontawesome.com/icons?d=gallery */
       imgSrc:tailwindCssLogo,
     },
     {
-      skillName: "Redux",
-      imgSrc: reduxLogo,
-    },
-    {
       skillName: "Typescript",
       imgSrc:typescriptLogo,
     },
     {
       skillName: "Material UI",
       imgSrc: materialUILogo,
-    },
-   
-     
-    {
-      skillName: "My SQL",
-      imgSrc:mysqlLogo,
     },
     {
       skillName: "Firebase",

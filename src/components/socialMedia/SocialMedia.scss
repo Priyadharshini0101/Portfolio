@@ -6,6 +6,16 @@
 
 .icon-button {
   margin-bottom: 10px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  width: 2.6rem;  
+  height: 2.6rem;
+  margin: 0 5px;
+  border-radius: 2.6rem;
+  color: $textColorDark;
+  font-size: 1.3rem;
+  transition: all 0.3s ease;
 }
 
 .icon-button i {
@@ -16,7 +26,6 @@
   font-size: 1.3rem;
   height: 2.6rem;
   line-height: 2.6rem;
-  margin: 0 5px;
   position: relative;
   text-align: center;
   -webkit-user-select: none;
@@ -79,7 +88,11 @@
 .stack-overflow i:hover,
 .kaggle i:hover,
 .medium i:hover {
-  background-color: $textColor;
+  background-color: $buttonColor;
+}
+
+.icon-button:hover {
+  transform: translateY(-6px);
 }
 
 /* Media Query */

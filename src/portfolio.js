@@ -123,7 +123,7 @@ const educationInfo = {
       logo: require("./assets/stack/gceSalem.png"),
       subHeader: "B.E - Computer Science and Engineering",
       duration: "July 2019 - May 2023",
-      grade: 'Average CGPA - 9',
+      grade: 'Average CGPA - 9.1',
     },
   ]
 };
@@ -169,7 +169,7 @@ const workExperiences = {
       desc: "Learned frontend development, collaborated on frontend development tasks and developed an Expense Tracker to track user balances."
     },
     {
-      role: "Internship - Frontend Development",
+      role: "Internship - Full Stack Development",
       company: "Nila Apps",
       companylogo: require("./assets/stack/nilaApps.jpg"),
       date: "Jul 2023 - Oct 2023",
@@ -180,7 +180,7 @@ const workExperiences = {
       role: "Frontend Developer Consultant - Frontend Development",
       company: "Solytics Partners",
       companylogo: require("./assets/stack/solyticsPartners.jpg"),
-      date: "Aug 2024 - Feb 2024",
+      date: "Aug 2024 - Feb 2025",
       desc: "Worked on bug fixes, tasks, and logger issues, resolving 80+ tickets related to UI enhancements and feature updates. Debugged and fixed critical issues in the Nimbus-Frontend website, improving user experience and performance."
     }
   ]

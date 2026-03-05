@@ -14,12 +14,10 @@ import kotlinLogo from '../../assets/stack/Kotlin.svg';
 import mysqlLogo from '../../assets/stack/My SQL.svg';
 import reactLogo from '../../assets/stack/React JS.svg';
 import tailwindCssLogo from '../../assets/stack/Tailwind CSS.svg';
-import reduxLogo from '../../assets/stack/Redux.svg';
 import typescriptLogo from '../../assets/stack/Typescript.svg'
 import materialUILogo from '../../assets/stack/Material UI.svg'
 import firebaseLogo from '../../assets/stack/Firebase.svg'
 import githubLogo from '../../assets/stack/Github.svg';
-import gitLogo from '../../assets/stack/Git.svg'
 
 const skillsSection = {
   title: "Tech Stack",
@@ -47,12 +45,12 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Android",
       imgSrc:androidLogo,
-    },
+    }
+   ,
     {
-      skillName:"Kotlin",
+      skillName: "Kotlin",
       imgSrc:kotlinLogo,
     }
-
    ,
     {
       skillName: "HTML5",
@@ -101,12 +99,9 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Firebase",
       imgSrc:firebaseLogo,
     },
-   
-   
-  
     {
-      skillName: "Git",
-      imgSrc:gitLogo,
+      skillName: "SQl",
+      imgSrc:mysqlLogo,
     },
     {
       skillName: "Github",

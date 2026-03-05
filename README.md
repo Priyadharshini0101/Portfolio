@@ -3,7 +3,7 @@
 ## A clean, beautiful and responsive portfolio template for Developers!
 
 
-<p  align="center">
+<p align="center">
   <kbd>
 <img src="https://user-images.githubusercontent.com/53429438/106779355-e9cd9e80-666c-11eb-9417-8a4b54441bc6.gif"></img>
   </kbd>
@@ -149,11 +149,11 @@ const greeting = {
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/Priyadharshini0101",
+  linkedin: "https://www.linkedin.com/in/priyadharshini-s-0323a7212/",
+  gmail: "priyadharshinis5102@gmail.com",
+  instagram: "https://www.instagram.com/dharshini_0101",
+  twitter: "https://x.com/dharshini0101", 
 };
 
 

@@ -80,7 +80,7 @@ function Header() {
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a>
+            <a class="toggle-switch" href="#">
               <ToggleSwitch />
             </a>
           </li>

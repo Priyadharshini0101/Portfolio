@@ -84,6 +84,11 @@ input:checked  + .slider {
   transition: max-height 0.2s ease-out;
 }
 
+.header .toggle-switch:hover{
+  background-color: transparent !important;
+  
+}
+
 /* menu icon */
 
 .header .menu-icon {

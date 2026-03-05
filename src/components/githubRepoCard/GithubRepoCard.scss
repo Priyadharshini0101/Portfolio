@@ -9,10 +9,8 @@
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  z-index: 1;
 }
 .repo-card-div:hover {
-  z-index: 1;
   transform: scale(1.1, 1.1);
 }
 
@@ -84,7 +82,6 @@
 .dark-card-mode {
   background-color: $darkBackground;
   color: $textColorDark;
-   z-index: 1;
 }
 .dark-card-mode p {
   color: $textColorDark;
@@ -95,7 +92,6 @@
 }
 
 .dark-card-mode:hover {
-   z-index: 2;
   background-color: $buttonColor !important;
   transform: scale(1.1, 1.1);
 }

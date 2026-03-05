@@ -1,6 +1,7 @@
 @import "../../_globalColor";
 
 .repo-card-div {
+  position: relative; 
   color: $githubRepoCardColor;
   background-color: $lightBackground2;
   box-shadow: $lightBoxShadowDarker 0px 10px 30px -15px;

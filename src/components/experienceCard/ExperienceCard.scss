@@ -6,6 +6,7 @@
   // box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
+  
 }
 
 .experience-card-dark {
@@ -16,7 +17,17 @@
   border: 1px solid $lightBorder1;
 }
 
-.experience-card:hover {
+.experience-card:hover, .experience-card-dark:hover {
+   transition: 0.25s ease;
+  &:hover {
+    transform: rotate(5deg);
+    .card:before {
+      transform: translatey(-2%) rotate(-4deg);
+    }
+    .card:after {
+      transform: translatey(2%) rotate(4deg);
+    }
+  }
   // box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
 }
 

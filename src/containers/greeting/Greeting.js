@@ -39,7 +39,7 @@ export default function Greeting() {
               <div id="resume" className="empty-div"></div>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
+                <Button text="Contact me" href="#contact" isDark={isDark} />
                 {greeting.resumeLink && (
                   <a
                     href="/files/resume.pdf"
@@ -48,7 +48,7 @@ export default function Greeting() {
                  
                     className="download-link-button"
                   >
-                    <Button text="Download my resume" />
+                    <Button text="Download my resume" isDark={isDark} />
                   </a>
                 )}
               </div>

@@ -14,16 +14,17 @@
   padding: 15px;
   border-radius: 15px;
   font-size: 25px;
-  border-color: $buttonColor;
-  border-style: solid; /* Add this to explicitly define the border style */
+  // border-color: $buttonColor;
+  // border-style: solid; /* Add this to explicitly define the border style */
+  // border-width: 1px;
 }
 
 #topButton:hover {
-  background-color: white;
+  background-color: $buttonHover;
 
   transition: all ease-in-out 0.2s;
 }
 
 #topButton:hover i {
-  color:$buttonColor
+  color:white;
 }

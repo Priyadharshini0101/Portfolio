@@ -65,6 +65,7 @@ export default function Projects() {
             className="project-button"
             href={socialMediaLinks?.github}
             newTab={true}
+            isDark={isDark}
           />
         </div>
       </Suspense>
